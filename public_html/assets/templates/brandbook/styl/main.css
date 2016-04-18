@@ -1,0 +1,1450 @@
+
+/* line 286 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/main.styl */
+
+/* line 1 : /home/alex/Проекты/irvi.pp.ua_brandbook/node_modules/stylus/lib/functions/index.styl */
+
+/* line 17 : /home/alex/Проекты/irvi.pp.ua_brandbook/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/utils/_colors.styl */
+
+/* line 71 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/utils/_colors.styl */
+
+/* line 79 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/utils/_colors_func.styl */
+
+/* line 1 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/utils/_colors_func.styl */
+
+/* line 79 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/utils/_colors_func.styl */
+
+/* line 79 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 1 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 3 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+.PaletteWrapper,
+body .tile_1,
+body .tile_1_0,
+body .tile_1_0_0,
+body .tile_1_0_1,
+body .tile_1_0_2,
+body .tile_1_0_-2,
+body .tile_1_0_-1,
+body .tile_1_1,
+body .tile_1_1_0,
+body .tile_1_1_1,
+body .tile_1_1_2,
+body .tile_1_1_-2,
+body .tile_1_1_-1,
+body .tile_1_2,
+body .tile_1_2_0,
+body .tile_1_2_1,
+body .tile_1_2_2,
+body .tile_1_2_-2,
+body .tile_1_2_-1,
+body .tile_1_-2,
+body .tile_1_-2_0,
+body .tile_1_-2_1,
+body .tile_1_-2_2,
+body .tile_1_-2_-2,
+body .tile_1_-2_-1,
+body .tile_1_-1,
+body .tile_1_-1_0,
+body .tile_1_-1_1,
+body .tile_1_-1_2,
+body .tile_1_-1_-2,
+body .tile_1_-1_-1,
+body .tile_2,
+body .tile_2_0,
+body .tile_2_0_0,
+body .tile_2_0_1,
+body .tile_2_0_2,
+body .tile_2_0_-2,
+body .tile_2_0_-1,
+body .tile_2_1,
+body .tile_2_1_0,
+body .tile_2_1_1,
+body .tile_2_1_2,
+body .tile_2_1_-2,
+body .tile_2_1_-1,
+body .tile_2_2,
+body .tile_2_2_0,
+body .tile_2_2_1,
+body .tile_2_2_2,
+body .tile_2_2_-2,
+body .tile_2_2_-1,
+body .tile_2_-2,
+body .tile_2_-2_0,
+body .tile_2_-2_1,
+body .tile_2_-2_2,
+body .tile_2_-2_-2,
+body .tile_2_-2_-1,
+body .tile_2_-1,
+body .tile_2_-1_0,
+body .tile_2_-1_1,
+body .tile_2_-1_2,
+body .tile_2_-1_-2,
+body .tile_2_-1_-1,
+body .tile_3,
+body .tile_3_0,
+body .tile_3_0_0,
+body .tile_3_0_1,
+body .tile_3_0_2,
+body .tile_3_0_-2,
+body .tile_3_0_-1,
+body .tile_3_1,
+body .tile_3_1_0,
+body .tile_3_1_1,
+body .tile_3_1_2,
+body .tile_3_1_-2,
+body .tile_3_1_-1,
+body .tile_3_2,
+body .tile_3_2_0,
+body .tile_3_2_1,
+body .tile_3_2_2,
+body .tile_3_2_-2,
+body .tile_3_2_-1,
+body .tile_3_-2,
+body .tile_3_-2_0,
+body .tile_3_-2_1,
+body .tile_3_-2_2,
+body .tile_3_-2_-2,
+body .tile_3_-2_-1,
+body .tile_3_-1,
+body .tile_3_-1_0,
+body .tile_3_-1_1,
+body .tile_3_-1_2,
+body .tile_3_-1_-2,
+body .tile_3_-1_-1,
+body .tile_4,
+body .tile_4_0,
+body .tile_4_0_0,
+body .tile_4_0_1,
+body .tile_4_0_2,
+body .tile_4_0_-2,
+body .tile_4_0_-1,
+body .tile_4_1,
+body .tile_4_1_0,
+body .tile_4_1_1,
+body .tile_4_1_2,
+body .tile_4_1_-2,
+body .tile_4_1_-1,
+body .tile_4_2,
+body .tile_4_2_0,
+body .tile_4_2_1,
+body .tile_4_2_2,
+body .tile_4_2_-2,
+body .tile_4_2_-1,
+body .tile_4_-2,
+body .tile_4_-2_0,
+body .tile_4_-2_1,
+body .tile_4_-2_2,
+body .tile_4_-2_-2,
+body .tile_4_-2_-1,
+body .tile_4_-1,
+body .tile_4_-1_0,
+body .tile_4_-1_1,
+body .tile_4_-1_2,
+body .tile_4_-1_-2,
+body .tile_4_-1_-1,
+body .tile_5,
+body .tile_5_0,
+body .tile_5_0_0,
+body .tile_5_0_1,
+body .tile_5_0_2,
+body .tile_5_0_-2,
+body .tile_5_0_-1,
+body .tile_5_1,
+body .tile_5_1_0,
+body .tile_5_1_1,
+body .tile_5_1_2,
+body .tile_5_1_-2,
+body .tile_5_1_-1,
+body .tile_5_2,
+body .tile_5_2_0,
+body .tile_5_2_1,
+body .tile_5_2_2,
+body .tile_5_2_-2,
+body .tile_5_2_-1,
+body .tile_5_-2,
+body .tile_5_-2_0,
+body .tile_5_-2_1,
+body .tile_5_-2_2,
+body .tile_5_-2_-2,
+body .tile_5_-2_-1,
+body .tile_5_-1,
+body .tile_5_-1_0,
+body .tile_5_-1_1,
+body .tile_5_-1_2,
+body .tile_5_-1_-2,
+body .tile_5_-1_-1,
+body .tile_6,
+body .tile_6_0,
+body .tile_6_0_0,
+body .tile_6_0_1,
+body .tile_6_0_2,
+body .tile_6_0_-2,
+body .tile_6_0_-1,
+body .tile_6_1,
+body .tile_6_1_0,
+body .tile_6_1_1,
+body .tile_6_1_2,
+body .tile_6_1_-2,
+body .tile_6_1_-1,
+body .tile_6_2,
+body .tile_6_2_0,
+body .tile_6_2_1,
+body .tile_6_2_2,
+body .tile_6_2_-2,
+body .tile_6_2_-1,
+body .tile_6_-2,
+body .tile_6_-2_0,
+body .tile_6_-2_1,
+body .tile_6_-2_2,
+body .tile_6_-2_-2,
+body .tile_6_-2_-1,
+body .tile_6_-1,
+body .tile_6_-1_0,
+body .tile_6_-1_1,
+body .tile_6_-1_2,
+body .tile_6_-1_-2,
+body .tile_6_-1_-1 {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+text-overflow
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* line 12 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1,
+body .tile_2,
+body .tile_3,
+body .tile_4,
+body .tile_5,
+body .tile_6 {
+  border-radius: 15px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-right: -0.3rem;
+  box-sizing: border-box;
+}
+
+/* line 22 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_0,
+body .tile_1_1,
+body .tile_1_2,
+body .tile_1_-2,
+body .tile_1_-1,
+body .tile_2_0,
+body .tile_2_1,
+body .tile_2_2,
+body .tile_2_-2,
+body .tile_2_-1,
+body .tile_3_0,
+body .tile_3_1,
+body .tile_3_2,
+body .tile_3_-2,
+body .tile_3_-1,
+body .tile_4_0,
+body .tile_4_1,
+body .tile_4_2,
+body .tile_4_-2,
+body .tile_4_-1,
+body .tile_5_0,
+body .tile_5_1,
+body .tile_5_2,
+body .tile_5_-2,
+body .tile_5_-1,
+body .tile_6_0,
+body .tile_6_1,
+body .tile_6_2,
+body .tile_6_-2,
+body .tile_6_-1 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+}
+
+/* line 29 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_0_0,
+body .tile_1_0_1,
+body .tile_1_0_2,
+body .tile_1_0_-2,
+body .tile_1_0_-1,
+body .tile_1_1_0,
+body .tile_1_1_1,
+body .tile_1_1_2,
+body .tile_1_1_-2,
+body .tile_1_1_-1,
+body .tile_1_2_0,
+body .tile_1_2_1,
+body .tile_1_2_2,
+body .tile_1_2_-2,
+body .tile_1_2_-1,
+body .tile_1_-2_0,
+body .tile_1_-2_1,
+body .tile_1_-2_2,
+body .tile_1_-2_-2,
+body .tile_1_-2_-1,
+body .tile_1_-1_0,
+body .tile_1_-1_1,
+body .tile_1_-1_2,
+body .tile_1_-1_-2,
+body .tile_1_-1_-1,
+body .tile_2_0_0,
+body .tile_2_0_1,
+body .tile_2_0_2,
+body .tile_2_0_-2,
+body .tile_2_0_-1,
+body .tile_2_1_0,
+body .tile_2_1_1,
+body .tile_2_1_2,
+body .tile_2_1_-2,
+body .tile_2_1_-1,
+body .tile_2_2_0,
+body .tile_2_2_1,
+body .tile_2_2_2,
+body .tile_2_2_-2,
+body .tile_2_2_-1,
+body .tile_2_-2_0,
+body .tile_2_-2_1,
+body .tile_2_-2_2,
+body .tile_2_-2_-2,
+body .tile_2_-2_-1,
+body .tile_2_-1_0,
+body .tile_2_-1_1,
+body .tile_2_-1_2,
+body .tile_2_-1_-2,
+body .tile_2_-1_-1,
+body .tile_3_0_0,
+body .tile_3_0_1,
+body .tile_3_0_2,
+body .tile_3_0_-2,
+body .tile_3_0_-1,
+body .tile_3_1_0,
+body .tile_3_1_1,
+body .tile_3_1_2,
+body .tile_3_1_-2,
+body .tile_3_1_-1,
+body .tile_3_2_0,
+body .tile_3_2_1,
+body .tile_3_2_2,
+body .tile_3_2_-2,
+body .tile_3_2_-1,
+body .tile_3_-2_0,
+body .tile_3_-2_1,
+body .tile_3_-2_2,
+body .tile_3_-2_-2,
+body .tile_3_-2_-1,
+body .tile_3_-1_0,
+body .tile_3_-1_1,
+body .tile_3_-1_2,
+body .tile_3_-1_-2,
+body .tile_3_-1_-1,
+body .tile_4_0_0,
+body .tile_4_0_1,
+body .tile_4_0_2,
+body .tile_4_0_-2,
+body .tile_4_0_-1,
+body .tile_4_1_0,
+body .tile_4_1_1,
+body .tile_4_1_2,
+body .tile_4_1_-2,
+body .tile_4_1_-1,
+body .tile_4_2_0,
+body .tile_4_2_1,
+body .tile_4_2_2,
+body .tile_4_2_-2,
+body .tile_4_2_-1,
+body .tile_4_-2_0,
+body .tile_4_-2_1,
+body .tile_4_-2_2,
+body .tile_4_-2_-2,
+body .tile_4_-2_-1,
+body .tile_4_-1_0,
+body .tile_4_-1_1,
+body .tile_4_-1_2,
+body .tile_4_-1_-2,
+body .tile_4_-1_-1,
+body .tile_5_0_0,
+body .tile_5_0_1,
+body .tile_5_0_2,
+body .tile_5_0_-2,
+body .tile_5_0_-1,
+body .tile_5_1_0,
+body .tile_5_1_1,
+body .tile_5_1_2,
+body .tile_5_1_-2,
+body .tile_5_1_-1,
+body .tile_5_2_0,
+body .tile_5_2_1,
+body .tile_5_2_2,
+body .tile_5_2_-2,
+body .tile_5_2_-1,
+body .tile_5_-2_0,
+body .tile_5_-2_1,
+body .tile_5_-2_2,
+body .tile_5_-2_-2,
+body .tile_5_-2_-1,
+body .tile_5_-1_0,
+body .tile_5_-1_1,
+body .tile_5_-1_2,
+body .tile_5_-1_-2,
+body .tile_5_-1_-1,
+body .tile_6_0_0,
+body .tile_6_0_1,
+body .tile_6_0_2,
+body .tile_6_0_-2,
+body .tile_6_0_-1,
+body .tile_6_1_0,
+body .tile_6_1_1,
+body .tile_6_1_2,
+body .tile_6_1_-2,
+body .tile_6_1_-1,
+body .tile_6_2_0,
+body .tile_6_2_1,
+body .tile_6_2_2,
+body .tile_6_2_-2,
+body .tile_6_2_-1,
+body .tile_6_-2_0,
+body .tile_6_-2_1,
+body .tile_6_-2_2,
+body .tile_6_-2_-2,
+body .tile_6_-2_-1,
+body .tile_6_-1_0,
+body .tile_6_-1_1,
+body .tile_6_-1_2,
+body .tile_6_-1_-2,
+body .tile_6_-1_-1 {
+  width: 20%;
+  height: 100%;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 36 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+.PaletteWrapper {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 10%;
+  right: 10%;
+}
+
+/* line 44 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+[title$=':0'],
+[title^='0:'] {
+  border: 3px solid #000;
+}
+
+/* line 76 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body {
+  text-align: center;
+}
+
+/* line 51 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1 {
+  background-color: #f00;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_0_0 {
+  content: #f00;
+  background-color: #f00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_0_1 {
+  content: #f00;
+  background-color: #f00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_0_2 {
+  content: #f00;
+  background-color: #f00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_0_-2 {
+  content: #bf4040;
+  background-color: #bf4040;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_0_-1 {
+  content: #df2020;
+  background-color: #df2020;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_1_0 {
+  content: #ff4040;
+  background-color: #ff4040;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_1_1 {
+  content: #ff4040;
+  background-color: #ff4040;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_1_2 {
+  content: #ff4040;
+  background-color: #ff4040;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_1_-2 {
+  content: #cf7070;
+  background-color: #cf7070;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_1_-1 {
+  content: #e75858;
+  background-color: #e75858;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_2_0 {
+  content: #ff8080;
+  background-color: #ff8080;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_2_1 {
+  content: #ff8080;
+  background-color: #ff8080;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_2_2 {
+  content: #ff8080;
+  background-color: #ff8080;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_2_-2 {
+  content: #dfa0a0;
+  background-color: #dfa0a0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_2_-1 {
+  content: #ef9090;
+  background-color: #ef9090;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-2_0 {
+  content: #800000;
+  background-color: #800000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-2_1 {
+  content: #800000;
+  background-color: #800000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-2_2 {
+  content: #800000;
+  background-color: #800000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-2_-2 {
+  content: #602020;
+  background-color: #602020;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-2_-1 {
+  content: #701010;
+  background-color: #701010;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-1_0 {
+  content: #bf0000;
+  background-color: #bf0000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-1_1 {
+  content: #bf0000;
+  background-color: #bf0000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-1_2 {
+  content: #bf0000;
+  background-color: #bf0000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-1_-2 {
+  content: #8f3030;
+  background-color: #8f3030;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_1_-1_-1 {
+  content: #a71818;
+  background-color: #a71818;
+}
+
+/* line 51 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2 {
+  background-color: #0f0;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_0_0 {
+  content: #0f0;
+  background-color: #0f0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_0_1 {
+  content: #0f0;
+  background-color: #0f0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_0_2 {
+  content: #0f0;
+  background-color: #0f0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_0_-2 {
+  content: #40bf40;
+  background-color: #40bf40;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_0_-1 {
+  content: #20df20;
+  background-color: #20df20;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_1_0 {
+  content: #40ff40;
+  background-color: #40ff40;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_1_1 {
+  content: #40ff40;
+  background-color: #40ff40;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_1_2 {
+  content: #40ff40;
+  background-color: #40ff40;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_1_-2 {
+  content: #70cf70;
+  background-color: #70cf70;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_1_-1 {
+  content: #58e758;
+  background-color: #58e758;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_2_0 {
+  content: #80ff80;
+  background-color: #80ff80;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_2_1 {
+  content: #80ff80;
+  background-color: #80ff80;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_2_2 {
+  content: #80ff80;
+  background-color: #80ff80;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_2_-2 {
+  content: #a0dfa0;
+  background-color: #a0dfa0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_2_-1 {
+  content: #90ef90;
+  background-color: #90ef90;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-2_0 {
+  content: #008000;
+  background-color: #008000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-2_1 {
+  content: #008000;
+  background-color: #008000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-2_2 {
+  content: #008000;
+  background-color: #008000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-2_-2 {
+  content: #206020;
+  background-color: #206020;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-2_-1 {
+  content: #107010;
+  background-color: #107010;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-1_0 {
+  content: #00bf00;
+  background-color: #00bf00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-1_1 {
+  content: #00bf00;
+  background-color: #00bf00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-1_2 {
+  content: #00bf00;
+  background-color: #00bf00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-1_-2 {
+  content: #308f30;
+  background-color: #308f30;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_2_-1_-1 {
+  content: #18a718;
+  background-color: #18a718;
+}
+
+/* line 51 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3 {
+  background-color: #00f;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_0_0 {
+  content: #00f;
+  background-color: #00f;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_0_1 {
+  content: #00f;
+  background-color: #00f;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_0_2 {
+  content: #00f;
+  background-color: #00f;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_0_-2 {
+  content: #4040bf;
+  background-color: #4040bf;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_0_-1 {
+  content: #2020df;
+  background-color: #2020df;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_1_0 {
+  content: #4040ff;
+  background-color: #4040ff;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_1_1 {
+  content: #4040ff;
+  background-color: #4040ff;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_1_2 {
+  content: #4040ff;
+  background-color: #4040ff;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_1_-2 {
+  content: #7070cf;
+  background-color: #7070cf;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_1_-1 {
+  content: #5858e7;
+  background-color: #5858e7;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_2_0 {
+  content: #8080ff;
+  background-color: #8080ff;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_2_1 {
+  content: #8080ff;
+  background-color: #8080ff;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_2_2 {
+  content: #8080ff;
+  background-color: #8080ff;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_2_-2 {
+  content: #a0a0df;
+  background-color: #a0a0df;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_2_-1 {
+  content: #9090ef;
+  background-color: #9090ef;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-2_0 {
+  content: #000080;
+  background-color: #000080;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-2_1 {
+  content: #000080;
+  background-color: #000080;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-2_2 {
+  content: #000080;
+  background-color: #000080;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-2_-2 {
+  content: #202060;
+  background-color: #202060;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-2_-1 {
+  content: #101070;
+  background-color: #101070;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-1_0 {
+  content: #0000bf;
+  background-color: #0000bf;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-1_1 {
+  content: #0000bf;
+  background-color: #0000bf;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-1_2 {
+  content: #0000bf;
+  background-color: #0000bf;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-1_-2 {
+  content: #30308f;
+  background-color: #30308f;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_3_-1_-1 {
+  content: #1818a7;
+  background-color: #1818a7;
+}
+
+/* line 51 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4 {
+  background-color: #30d5c8;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_0_0 {
+  content: #30d5c8;
+  background-color: #30d5c8;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_0_1 {
+  content: #1bead9;
+  background-color: #1bead9;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_0_2 {
+  content: #07feeb;
+  background-color: #07feeb;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_0_-2 {
+  content: #59aca5;
+  background-color: #59aca5;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_0_-1 {
+  content: #45c0b7;
+  background-color: #45c0b7;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_1_0 {
+  content: #64e0d6;
+  background-color: #64e0d6;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_1_1 {
+  content: #54efe3;
+  background-color: #54efe3;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_1_2 {
+  content: #45fef0;
+  background-color: #45fef0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_1_-2 {
+  content: #83c1bc;
+  background-color: #83c1bc;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_1_-1 {
+  content: #73d0c9;
+  background-color: #73d0c9;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_2_0 {
+  content: #98eae4;
+  background-color: #98eae4;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_2_1 {
+  content: #8df5ec;
+  background-color: #8df5ec;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_2_2 {
+  content: #83fef5;
+  background-color: #83fef5;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_2_-2 {
+  content: #acd6d2;
+  background-color: #acd6d2;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_2_-1 {
+  content: #a2e0db;
+  background-color: #a2e0db;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-2_0 {
+  content: #166c66;
+  background-color: #166c66;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-2_1 {
+  content: #0b776f;
+  background-color: #0b776f;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-2_2 {
+  content: #018278;
+  background-color: #018278;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-2_-2 {
+  content: #2b5753;
+  background-color: #2b5753;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-2_-1 {
+  content: #21615d;
+  background-color: #21615d;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-1_0 {
+  content: #21a399;
+  background-color: #21a399;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-1_1 {
+  content: #11b3a6;
+  background-color: #11b3a6;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-1_2 {
+  content: #01c3b4;
+  background-color: #01c3b4;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-1_-2 {
+  content: #41837d;
+  background-color: #41837d;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_4_-1_-1 {
+  content: #32928b;
+  background-color: #32928b;
+}
+
+/* line 51 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5 {
+  background-color: #d540d0;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_0_0 {
+  content: #d540d0;
+  background-color: #d540d0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_0_1 {
+  content: #e82de1;
+  background-color: #e82de1;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_0_2 {
+  content: #fa1bf3;
+  background-color: #fa1bf3;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_0_-2 {
+  content: #b065ad;
+  background-color: #b065ad;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_0_-1 {
+  content: #c253bf;
+  background-color: #c253bf;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_1_0 {
+  content: #e070dc;
+  background-color: #e070dc;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_1_1 {
+  content: #ee62e8;
+  background-color: #ee62e8;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_1_2 {
+  content: #fb54f6;
+  background-color: #fb54f6;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_1_-2 {
+  content: #c48cc2;
+  background-color: #c48cc2;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_1_-1 {
+  content: #d17ecf;
+  background-color: #d17ecf;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_2_0 {
+  content: #eaa0e8;
+  background-color: #eaa0e8;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_2_1 {
+  content: #f396f0;
+  background-color: #f396f0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_2_2 {
+  content: #fc8df9;
+  background-color: #fc8df9;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_2_-2 {
+  content: #d8b2d6;
+  background-color: #d8b2d6;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_2_-1 {
+  content: #e1a9df;
+  background-color: #e1a9df;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-2_0 {
+  content: #72196f;
+  background-color: #72196f;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-2_1 {
+  content: #7d0e79;
+  background-color: #7d0e79;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-2_2 {
+  content: #880383;
+  background-color: #880383;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-2_-2 {
+  content: #5c2f5a;
+  background-color: #5c2f5a;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-2_-1 {
+  content: #662464;
+  background-color: #662464;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-1_0 {
+  content: #aa25a6;
+  background-color: #aa25a6;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-1_1 {
+  content: #bb15b5;
+  background-color: #bb15b5;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-1_2 {
+  content: #cb04c5;
+  background-color: #cb04c5;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-1_-2 {
+  content: #894687;
+  background-color: #894687;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_5_-1_-1 {
+  content: #993697;
+  background-color: #993697;
+}
+
+/* line 51 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6 {
+  background-color: #fffa0a;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_0_0 {
+  content: #fffa0a;
+  background-color: #fffa0a;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_0_1 {
+  content: #ff0;
+  background-color: #ff0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_0_2 {
+  content: #ff0;
+  background-color: #ff0;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_0_-2 {
+  content: #c2bf47;
+  background-color: #c2bf47;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_0_-1 {
+  content: #e0dd29;
+  background-color: #e0dd29;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_1_0 {
+  content: #fffb47;
+  background-color: #fffb47;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_1_1 {
+  content: #ffff40;
+  background-color: #ffff40;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_1_2 {
+  content: #ffff40;
+  background-color: #ffff40;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_1_-2 {
+  content: #d1cf75;
+  background-color: #d1cf75;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_1_-1 {
+  content: #e8e55f;
+  background-color: #e8e55f;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_2_0 {
+  content: #fffc85;
+  background-color: #fffc85;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_2_1 {
+  content: #ffff80;
+  background-color: #ffff80;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_2_2 {
+  content: #ffff80;
+  background-color: #ffff80;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_2_-2 {
+  content: #e1dfa3;
+  background-color: #e1dfa3;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_2_-1 {
+  content: #efee94;
+  background-color: #efee94;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-2_0 {
+  content: #858200;
+  background-color: #858200;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-2_1 {
+  content: #7f8000;
+  background-color: #7f8000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-2_2 {
+  content: #7f8000;
+  background-color: #7f8000;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-2_-2 {
+  content: #646221;
+  background-color: #646221;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-2_-1 {
+  content: #747211;
+  background-color: #747211;
+}
+
+/* line 58 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-1_0 {
+  content: #c7c300;
+  background-color: #c7c300;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-1_1 {
+  content: #bfbf00;
+  background-color: #bfbf00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-1_2 {
+  content: #bfbf00;
+  background-color: #bfbf00;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-1_-2 {
+  content: #959331;
+  background-color: #959331;
+}
+
+/* line 65 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+body .tile_6_-1_-1 {
+  content: #aeab19;
+  background-color: #aeab19;
+}
+
+/* line 19 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/components/brandbook.styl */
+
+/* line 1 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/layout/_body.styl */
+
+/* line 5 : /home/alex/Проекты/irvi.pp.ua_brandbook/public_html/assets/templates/brandbook/styl/layout/_body.styl */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

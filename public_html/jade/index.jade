@@ -1,0 +1,19 @@
+include ./utils/_nav
+extends layout/_layout
+
+block main
+
+	- each name1 in ['1', '2', '3', '4', '5', '6']
+		- var attr1 = {'class': 'tile_' + name1}
+		div&attributes(attr1) Color №#{name1}
+			div.PaletteWrapper
+				- each name2 in ['-2', '-1', '0', '1', '2']
+					- var attr2 = {'class': 'tile_' + name1 + '_' + name2}
+					div&attributes(attr2)
+						//- Color ##{name1}, Lightness  ##{name2}
+						- each name3 in ['-2', '-1', '0', '1', '2']
+							- var attr3 = {'class': 'tile_' + name1 + '_' + name2 + '_' + name3, 'title': name2 + ':' + name3 }
+								div&attributes(attr3)
+									//- L:#{name2},<br/> S:#{name3}
+
+//.tile_3_-2_-1,

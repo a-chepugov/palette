@@ -1,0 +1,82 @@
+@require '../utils/_colors'
+
+$tile
+	//white-space: nowrap; /* Отменяем перенос текста */
+	overflow: hidden
+	margin 0
+	padding 0
+	text-overflow
+	border 1px solid black
+	border-radius 5px
+
+$tileColor
+	border-radius 15px
+	position relative
+	width: 300px
+	height: @width
+	//height 100%
+	display inline-block
+	margin-right -0.3rem
+	box-sizing: border-box;
+
+$tileLightness
+	display block
+	position relative
+	width: (100% / 1)
+	height: (100% / 5)
+	box-sizing: border-box;
+
+$tileSaturation
+	width: (100% / 5)
+	height: (100% / 1)
+	display block
+	float: left
+	box-sizing: border-box;
+
+.PaletteWrapper
+	@extend $tile
+	position absolute
+	width: 50%
+	height: @width
+	bottom 10%
+	right @bottom
+
+[title$=':0'], [title^='0:'] {
+	border 3px solid black
+	//margin -3px
+}
+
+makeColorTile(Palette) {
+	for key1 in Palette {
+		.tile_{key1} {
+			background-color: getColor(key1);
+			@extend $tile
+			@extend $tileColor
+		}
+
+		for key2 in Palette[key1] {
+			& .tile_{key1}_{key2} {
+				//background-color: getColor(key1, key2);
+				@extend $tile
+				@extend $tileLightness
+			}
+
+			for key3 in Palette[key1][key2] {
+				& .tile_{key1}_{key2}_{key3} {
+					content: getColor(key1, key2, key3)
+					background-color: getColor(key1, key2, key3);
+					@extend $tile
+					@extend $tileSaturation
+				}
+			}
+		}
+	}
+}
+
+body
+	text-align center
+
+	makeColorTile(colors)
+
+
+

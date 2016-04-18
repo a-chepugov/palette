@@ -1,0 +1,33 @@
+doctype html
+html
+	head
+		include ./_head
+
+		block localstylesheets
+		
+		block localheadscripts
+
+	body
+	
+		div.page_wrapper
+
+			header
+				include ./_header
+
+			nav
+				<!--noindex-->
+				<!--googleoff: index-->
+				include ./_nav
+				<!--googleon: index-->
+				<!--/noindex-->
+
+			aside
+				include ./_aside
+
+			main
+				block main
+
+			footer
+				include ./_footer
+
+	block localtailscripts

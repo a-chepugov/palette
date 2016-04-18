@@ -1,0 +1,37 @@
+-
+	'use strict';
+
+	var parseNav = function (aRawData) {
+		var aTarget = {}
+		if (Object.keys(aRawData).length > 0) {
+			for (var anIndex in aRawData) {
+				if(aRawData.hasOwnProperty(anIndex)) {
+					bypassData(aRawData[anIndex].path, aRawData[anIndex], anIndex, aTarget);
+				}
+			}
+		}
+		return aTarget;
+	};
+
+	var bypassData = function (aPath, anItem, anItemName, aTarget) {
+		if (aPath && aPath.length > 0) {
+			if (!(aTarget[aPath[0]].sub)) {
+				aTarget[aPath[0]].sub = {};
+			}
+			bypassData(aPath.slice(1), anItem, anItemName, aTarget[aPath[0]].sub);
+		}
+		else {
+			aTarget[anItemName] = anItem;
+		}
+	};
+	
+mixin nav(NavItems, Config)
+	- var conf = {'ul': ( Config && Config.ul)? Config.ul:'','sub':(Config && Config.sub)? Config.sub:{}}
+
+	ul(class='#{conf.ul}')
+		each NavItem in NavItems
+			li
+				- var NaItemAttrs = {'href': (NavItem.href)? NavItem.href:undefined,'title':(NavItem.title)? NavItem.title:undefined}
+				a&attributes(NaItemAttrs) #{NavItem.name}
+				if NavItem.sub
+					+nav(NavItem.sub, conf.sub)

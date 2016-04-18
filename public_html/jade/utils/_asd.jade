@@ -1,0 +1,24 @@
+doctype html
+- var user = 'alex'
+- var menuItems = ['Главная', 'Портфолио', 'Контакты', 'О компании']
+- var menuFooter = ['Главная', 'Портфолио', 'О компании']
+mixin navigationMenu(items)
+	ul
+		each item in items
+			li: a(href='#') #{item}
+html
+	head
+		title Тест
+		link(rel='stylesheets' media='all' type='text/css', href='style.css')
+	body
+		header
+			h1
+				a(href='/') Главная
+		nav
+			+navigationMenu(menuItems)
+		block content
+		footer
+			p.copyright.
+				Разработано #{user}
+			+navigationMenu(menuFooter)
+            

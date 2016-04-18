@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Clean SVG after InkScape - jsFiddle demo by alexanderby</title>
+  <script type='text/javascript' src='/js/lib/dummy.js'></script>
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  <style type='text/css'></style>
+
+  
+<script type='text/javascript'>//<![CDATA[
+window.onload=function(){
+// Removes namespace elements and attributes
+function removeNSElements(source, nsName) {
+    var reg_xmlns = new RegExp('xmlns:' + nsName + '=".*?"\\s*', 'g');
+    var reg_tag = new RegExp('<' + nsName + ':([^>]|[\\s])*?((\\/>)|(>[\\s\\S]*?<\\/' + nsName + ':.*?>))\\s*', 'g');
+    var reg_attr = new RegExp(nsName + ':.*?=".*?"\\s*', 'g');
+    source = source.replace(reg_xmlns, '');
+    source = source.replace(reg_tag, '');
+    source = source.replace(reg_attr, '');
+    return source;
+}
+
+var fileInput = document.getElementById('fileInput');
+var saveButton = document.getElementById('saveButton');
+var reader = new FileReader();
+
+fileInput.onchange = function () {
+    if (fileInput.files[0]) {
+        reader.readAsText(fileInput.files[0]);
+    }
+};
+reader.onloadend = function () {
+    // Get file name
+    var fileName = fileInput.value.replace(/(^.*?[\\|\/]{0,1})([^\\\/]+?)($)/, '$2');
+
+    // Remove NS elements
+    var result = reader.result;
+    result = removeNSElements(result, 'inkscape');
+    result = removeNSElements(result, 'sodipodi');
+    result = removeNSElements(result, 'rdf');
+    result = removeNSElements(result, 'cc');
+    result = removeNSElements(result, 'dc');
+    
+    // Enable save button
+    if (window.navigator.msSaveOrOpenBlob) {
+        // IE
+        var blob = new Blob([result]);
+        saveButton.onclick = function (e) {
+            e.preventDefault();
+            window.navigator.msSaveOrOpenBlob(blob, fileName);
+        };
+        saveButton.setAttribute('href', '#');
+    } else {
+        // Non-IE
+        var url = 'data:application/octet-stream;charset=utf-8,' + encodeURIComponent(result);
+        saveButton.setAttribute('download', fileName);
+        saveButton.setAttribute('href', url);
+    }
+};
+}//]]> 
+
+</script>
+
+</head>
+<body>
+  <input type="file" id="fileInput" />
+<br/>
+<a id="saveButton">Save</a>
+  
+</body>
+
+</html>
+

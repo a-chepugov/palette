@@ -1,0 +1,27 @@
+include ../utils/_nav
+-
+	var SocialsItems = {
+		'facebook':{'id':['facebook'],'name':'Facebook','href':'https://www.facebook.com/kgt.kiev.ua'},
+		'vk':{'id':['vk'],'name':'ВКонтакте','href':'https://vk.com/kgt_kiev_ua'},
+		'google':{'id':['google'],'name': 'Google+','href':'https://plus.google.com/u/0/communities/11058667283033539113'},
+		'email':{'id':['email'],'name': 'Почта','href':'mailto:Lkomosa@ukr.net'}
+	};
+
+	var NavItems = {
+		'main':{'path':[], 'name':'Главная','href':'index.html', 'title': 'Главная'},
+		'service':{'path':[], 'name':'Услуги','href':'services.html', 'title': 'Услуги'},
+		'cargo':{'path':['service'], 'name':'Перевозка мебели и техники','href':'service-cargo.html', 'title': 'Перевозка'},
+		'materials':{'path':['service'], 'name':'Доставка стройматериалов','href':'service-bilding_materials.html', 'title': 'Стройматериалы'},
+		'garbage':{'path':['service'], 'name': 'Вывоз строймусора','href':'service-garbage.html', 'title': 'Строймусор'},
+		'pack':{'path':['service'], 'name': 'Упаковка','href':'service-pack.html', 'title': 'Упаковка'},
+		'info':{'path':['service'], 'name': 'Информация для клиентов','href':'service-info.html', 'title': 'Информация'},
+		'blog':{'path':[], 'name': 'Блог','href':'blog.html', 'title': 'Блог'},
+		'about':{'path':[], 'name': 'О нас','href':'contacts.html', 'title': 'О нас'},
+		'contacts':{'path':['about'], 'name':'Контакты','href':'contacts.html', 'title': 'Контакты'},
+		'autopark':{'path':['about'], 'name':'Автопарк','href':'autopark.html', 'title': 'Автопарк'},
+		'comments':{'path':['about'], 'name': 'Отзывы','href':'comments.html', 'title': 'Отзывы'}
+		};
+
+	var q = parseNav(NavItems);
+
+block nav

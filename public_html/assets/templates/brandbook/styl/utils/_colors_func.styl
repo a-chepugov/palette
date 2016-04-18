@@ -1,0 +1,72 @@
+@require './_colors'
+
+correctColor(color = #888, saturation = 0%, lightness = 0%, alpha = 100%) { // Корректирует насыщеность яркость и прозрачность цвета
+	return alpha( lighten( saturate(color,saturation), lightness), alpha)
+}
+
+getColorFromPalette(color, strim = 0, ltrim = 0, atrim = 100%, sk = 33%, lk = 33%, ak = 33%, palette = $colors) { // Возвращает цвет из палитры по заданным параметрам
+	if ( (palette && palette[color]) && ( (type(palette[color]) == 'rgba') || (type(palette[color]) == 'hsla') ) ) {
+		q = palette[color]
+		return alpha(lighten(saturate(q, strim * sk), ltrim * lk), atrim * ak )
+	}
+	return color + ' in palette is not a color'
+}
+
+oi(key, value) { // Веозврашает объект с заданным ключом и значением
+	obj = {};
+	key = (key)?key:'0'
+	newkey = ('' + key);
+	obj[newkey] = value;
+	return obj;
+}
+
+createColorPalette(Palette) { // Создает палитру из набора цветов
+	NewPalette = {};
+	for key,value in Palette {
+		sObj = {};
+		for $s in ( -2 -1 0 1 2 ) {
+			lObj = {};
+			for $l in ( -2 -1 0 1 2 ) {
+				aObj = {};
+				for $a in (0 1 2 3 4 5) {
+					$color = correctColor(value, $s * 25%, $l * 25%, 100%/(0.5 * $a + 1));
+					aObj = merge(aObj,  oi($a, $color) );
+				}
+				lObj = merge(lObj,  oi($l, aObj) );
+			}
+			sObj = merge(sObj,  oi($s, lObj) );
+		}
+	NewPalette = merge(NewPalette,  oi(key, sObj) );
+	}
+	return NewPalette
+}
+colors = createColorPalette(colors)
+
+getColor(Name, Lightness = 0, Saturation = 0, Alpha = 0, Palette = colors) { // Возвращает цвет из палитры
+	Name=( Name == 0 )?'0':Name
+	Lightness=( Lightness == 0)?'0':Lightness
+	Saturation=( Saturation == 0)?'0':Saturation;
+	Alpha=( Alpha ==0 )?'0':Alpha;
+	Name=(type(Name)=='unit')?''+Name:Name
+	Name=(type(Name)=='string')?Name:0;
+	Lightness=(type(Lightness)=='unit')?''+Lightness:Lightness
+	Lightness=(type(Lightness)=='string')?Lightness:'0';
+	Saturation=(type(Saturation)=='unit')?''+Saturation:Saturation;
+	Saturation=(type(Saturation)=='string')?Saturation:'0';
+	Alpha=(type(Alpha)=='unit')?''+Alpha:Alpha;
+	Alpha=(type(Alpha)=='string')?Alpha:'0';
+	if ( Palette && Palette[Name] && Palette[Name][Saturation] && Palette[Name][Saturation][Lightness] && Palette[Name][Saturation][Lightness][Alpha] ) {
+		return Palette[Name][Saturation][Lightness][Alpha];
+	} else {
+		return 'Out of range';
+	}
+}
+
+palette(Name, Lightness = 0, Saturation = 0, Alpha = 0, Palette = colors) { // Возвращает color: c цветом из палитры
+	if ( (type(Name) == 'unit') || (type(Name) == 'string') ) {
+		color: getColor(Name, Lightness, Saturation, Alpha, Palette);
+	}
+}
+
+//h3
+//	-colors-: colors
